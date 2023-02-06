@@ -18,7 +18,10 @@ ActiveAdmin.register Post do
   filter :title
   filter :body
   filter :v
-  filter :tehe, as: :string
+
+  controller do
+    
+  end
 
 
 end
